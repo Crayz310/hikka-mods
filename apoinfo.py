@@ -343,7 +343,7 @@ class ApodiktumInfoMod(loader.Module):
             if self.config["custom_message"] and self.config["custom_message"] != "no"
             else (
                 "<b>🌚 Apodiktum Hikka Info</b>\n"
-                f"<b>🤴 {self.strings('owner')}: </b>{me}\n\n"
+                f"<b><emoji document_id=5382342471478954481></emoji>⭐️ {self.strings('owner')}: </b>{me}\n\n"
                 f"<b>🕰 {self.strings('uptime')}: </b><code>{uptime}</code>\n"
                 f"<b>🔮 {self.strings('version')}: </b>{version} {build}\n"
                 f"<b>{upd}</b>\n\n"
